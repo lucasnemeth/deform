@@ -6,114 +6,125 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: deform 0.0\n"
-"Report-Msgid-Bugs-To: repoze-dev@repoze.org\n"
-"POT-Creation-Date: 2012-03-30 16:17+0200\n"
-"PO-Revision-Date: 2011-11-08 15:55+0100\n"
-"Last-Translator: Fernando Correa Neto <fcdoth@gmail.com>\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-05-19 16:56+0200\n"
+"PO-Revision-Date: 2014-04-30 15:55+0100\n"
+"Last-Translator: Lucas Nemeth <lucasnemeth@gmail.com>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: deform/schema.py:100
+#: deform/schema.py:104
 msgid "${value} is not a dictionary"
 msgstr "${value} não é um dicionário"
 
-#: deform/schema.py:107
+#: deform/schema.py:111
 msgid "${value} has no ${key} key"
-msgstr "${value} não possue a chave ${key}"
+msgstr "${value} não possui a chave ${key}"
 
-#: deform/schema.py:146
+#: deform/schema.py:156
 msgid "${value} is not iterable"
-msgstr "Iterações não podem ser feitas em ${value}"
+msgstr "${value} não é iterável"
 
-#: deform/schema.py:150
+#: deform/schema.py:160
 msgid "Required"
-msgstr "Campo obrigatório"
+msgstr "Obrigatório"
 
-#: deform/widget.py:779
+#: deform/widget.py:1096
 msgid "Fields did not match"
 msgstr "Os campos não são iguais"
 
-#: deform/widget.py:780
+#: deform/widget.py:1097
 msgid "Value"
 msgstr "Valor"
 
-#: deform/widget.py:781
+#: deform/widget.py:1098
 msgid "Confirm Value"
 msgstr "Confirme o valor"
 
-#: deform/widget.py:829
+#: deform/widget.py:1148
 msgid "Password did not match confirm"
 msgstr "As senhas não são iguais"
 
-#: deform/widget.py:980
+#: deform/widget.py:1306
 msgid "Add ${subitem_title}"
-msgstr ""
+msgstr "Adicionar ${subitem_title}"
 
-#: deform/widget.py:1239
+#: deform/widget.py:1609
 msgid "Incomplete date"
-msgstr "Incompleto"
+msgstr "Data incompleta"
 
-#: deform/templates/checked_password.pt:5
+#: deform/templates/checked_password.pt:8
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
-#: deform/templates/checked_password.pt:10
+#: deform/templates/checked_password.pt:14
 msgid "Confirm Password"
-msgstr ""
+msgstr "Confirmação da senha"
 
-#: deform/templates/dateparts.pt:5 deform/templates/readonly/dateparts.pt:2
+#: deform/templates/dateparts.pt:10 deform/templates/readonly/dateparts.pt:3
 msgid "Year"
-msgstr ""
+msgstr "Ano"
 
-#: deform/templates/dateparts.pt:12 deform/templates/readonly/dateparts.pt:4
+#: deform/templates/dateparts.pt:17 deform/templates/readonly/dateparts.pt:5
 msgid "Month"
-msgstr ""
+msgstr "Mês"
 
-#: deform/templates/dateparts.pt:19 deform/templates/readonly/dateparts.pt:6
+#: deform/templates/dateparts.pt:24 deform/templates/readonly/dateparts.pt:7
 msgid "Day"
-msgstr ""
+msgstr "Dia"
 
-#: deform/templates/form.pt:19
+#: deform/templates/form.pt:33
 msgid "There was a problem with your submission"
 msgstr "Houve um problema ao processar o formulário"
 
-#: deform/templates/form.pt:21
+#: deform/templates/form.pt:35
 msgid "Errors have been highlighted below"
-msgstr "Os erros foram destacados abaixo"
+msgstr "Os erros estão destacados abaixo"
 
-#: deform/templates/mapping.pt:6
+#: deform/templates/mapping.pt:13
 msgid "There was a problem with this section"
-msgstr "Houve um problema ao processar o formulário"
+msgstr "Houve um problema nesta seção"
 
 #. Default: en
-#: deform/templates/richtext.pt:15
+#: deform/templates/richtext.pt:26
 msgid "language-code"
 msgstr "pt"
 
-#: deform/templates/sequence_item.pt:6
+#: deform/templates/sequence_item.pt:12
 msgid "Remove"
+msgstr "Remover"
+
+#: deform/templates/sequence_item.pt:19
+msgid "Reorder (via drag and drop)"
 msgstr ""
 
 #: deform/templates/readonly/checked_password.pt:2
 #: deform/templates/readonly/password.pt:2
 msgid "Password not displayed."
-msgstr ""
+msgstr "A senha não é mostrada"
 
 #: deform/templates/readonly/file_upload.pt:7
 msgid "Read-only."
-msgstr ""
+msgstr "Somente leitura"
 
 #: deform/templates/readonly/radio_choice.pt:4
-#: deform/templates/readonly/select.pt:3
+#: deform/templates/readonly/select.pt:10
+#: deform/templates/readonly/select.pt:16
 msgid "Selected"
-msgstr ""
+msgstr "Selecionado"
 
 #: deform/templates/readonly/radio_choice.pt:5
-#: deform/templates/readonly/select.pt:4
+#: deform/templates/readonly/select.pt:11
+#: deform/templates/readonly/select.pt:17
 msgid "Not Selected"
-msgstr ""
+msgstr "Não selecionado"
 
+#: deform/tests/test_widget.py:1383
+#, fuzzy
+msgid "Yo ${subitem_title}"
+msgstr "Adicionar ${subitem_title}"
